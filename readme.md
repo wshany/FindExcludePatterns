@@ -14,7 +14,7 @@ By default will exclude the following normal Sublime Text preferences: "index_ex
 
 To edit your preferences just go to: Main menubar -> Preferences -> Settings - User.
 
-TIP: To exclude a folder you need to write it like this: "*/.git/*". Then for example to exclude version control from searches your preference will looks somewhat like this:
+TIP: To exclude a folder you need to write it like this: "\*/.git/\*". Then for example to exclude version control from searches your preference will looks somewhat like this:
 
     "find_exclude_patterns": ["*/.svn/*", "*/.git/*", "*/.hg/*", "*/CVS/*"]
 
